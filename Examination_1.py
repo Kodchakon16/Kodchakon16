@@ -6,5 +6,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-pay = int(input())
-price = int(input())
+pay=int(input("จ่าย"))
+price=int(input("ราคา"))
+totle=(pay-price)
+print (totle)
