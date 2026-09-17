@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-temp = float(input())
+temp = float(input("อุณหภูมิ"))
+if temp>=37.5:
+    print("fever")
+elif temp<=37.4:
+    print("normal")
+
